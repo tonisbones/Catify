@@ -12,4 +12,7 @@
   "permissions": [
     "https://secure.flickr.com/"
   ]
+"content_scripts": [ {
+    "matches": [ "http://*/*", "https://*/*"]
+  }]
 }
